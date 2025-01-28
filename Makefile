@@ -2,9 +2,9 @@ bin/testTableEntry: testTableEntry.cpp TableEntry.h
 	mkdir -p bin
 	g++ -o bin/testTableEntry testTableEntry.cpp
 
-bin/testHashTable: testHashTable.cpp HashTable.h Dict.h TableEntry.h ../PRA_2425_P1/ListLinked.h
+bin/testHashTable: testHashTable.cpp HashTable.h Dict.h TableEntry.h ../PRA2425_PR1_JMS/ListLinked.h
 	mkdir -p bin
-	g++ -o bin/testHashTable testHashTable.cpp HashTable.h Dict.h TableEntry.h ../PRA_2425_P1/ListLinked.h
+	g++ -o bin/testHashTable testHashTable.cpp HashTable.h Dict.h TableEntry.h ../PRA2425_PR1_JMS/ListLinked.h
 
 bin/testBSTree: testBSTree.cpp BSTree.h BSNode.h
 	mkdir -p bin
